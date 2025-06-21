@@ -85,10 +85,9 @@ gdlll_insert_element_before_element()
 
 ----------------------------------------
 
-
-----------------------------------------
 Some pseudocode for using this library as a 'list' is:
 
+```
 gdlll_add_element_to_front(...);
 or,
 gdlll_add_element_to_back(...);
@@ -99,12 +98,13 @@ or,
 elem = gdlll_get_last_element(...);
 or,
 elem = gdlll_get_matching_element(...);
+```
+
 ----------------------------------------
 
-
-----------------------------------------
 Some pseudocode for using this library as a 'sorted list' is:
 
+```
 gdlll_add_element_sorted_ascending(...);
 or,
 gdlll_add_element_sorted_descending(...);
@@ -115,35 +115,37 @@ or,
 elem = gdlll_get_last_element(...);
 or,
 elem = gdlll_get_matching_element(...);
+```
+
 ----------------------------------------
 
-
-----------------------------------------
 Some pseudocode for using this library as a 'set' is:
 
-
+```
 if (gdlll_peek_matching_element(...) == NULL) {
     gdlll_add_element_sorted_ascending(...);
     or,
     gdlll_add_element_sorted_descending(...);
 }
+```
+
 ----------------------------------------
 
-
-----------------------------------------
 Some pseudocode for using this library as an 'unordered_set' is:
 
-
+```
 if (gdlll_peek_matching_element(...) == NULL) {
     gdlll_add_element_to_front(...);
     or,
     gdlll_add_element_to_back(...);
 }
+```
+
 ----------------------------------------
 
-
-----------------------------------------
 Some pseudocode for using this library as a 'map' is:
+
+```
 
 For using this library as a 'map', etc, your 'data_ptr' must point to a
 structure that has a 'key' member and a 'value' member.
@@ -176,6 +178,8 @@ or,
 elem = gdlll_get_last_element(...);
 or,
 elem = gdlll_get_matching_element(...);
+```
+
 ----------------------------------------
 
 ---- End of README ----
