@@ -51,36 +51,36 @@ and also the code of the test programs that show how to use this library as a
 
 The source files in this repository are:
 
-generic_doubly_linked_list_library.c
-generic_doubly_linked_list_library.h
-test_generic_doubly_linked_list_library_as_list.c
+generic_doubly_linked_list_library.c<br>
+generic_doubly_linked_list_library.h<br>
+test_generic_doubly_linked_list_library_as_list.c<br>
 test_generic_doubly_linked_list_library_as_map.c
 
 The functions available in this library are:
 
-gdlll_init_gdll_container()
-gdlll_get_total_number_of_elements_in_gdll_container()
-gdlll_add_element_to_front()
-gdlll_add_element_to_back()
-gdlll_add_element_sorted_ascending()
-gdlll_add_element_sorted_descending()
-gdlll_get_front_element()
-gdlll_get_last_element()
-gdlll_get_matching_element()
-gdlll_peek_front_element()
-gdlll_peek_last_element()
-gdlll_peek_matching_element()
-gdlll_replace_data_in_matching_element()
-gdlll_delete_front_element()
-gdlll_delete_last_element()
-gdlll_delete_matching_element()
-gdlll_delete_standalone_element()
-gdlll_delete_all_elements_in_gdll_container()
+gdlll_init_gdll_container()<br>
+gdlll_get_total_number_of_elements_in_gdll_container()<br>
+gdlll_add_element_to_front()<br>
+gdlll_add_element_to_back()<br>
+gdlll_add_element_sorted_ascending()<br>
+gdlll_add_element_sorted_descending()<br>
+gdlll_get_front_element()<br>
+gdlll_get_last_element()<br>
+gdlll_get_matching_element()<br>
+gdlll_peek_front_element()<br>
+gdlll_peek_last_element()<br>
+gdlll_peek_matching_element()<br>
+gdlll_replace_data_in_matching_element()<br>
+gdlll_delete_front_element()<br>
+gdlll_delete_last_element()<br>
+gdlll_delete_matching_element()<br>
+gdlll_delete_standalone_element()<br>
+gdlll_delete_all_elements_in_gdll_container()<br>
 gdlll_delete_gdll_container()
 
 /* static functions */
-gdlll_create_standalone_element()
-gdlll_remove_element_from_list()
+gdlll_create_standalone_element()<br>
+gdlll_remove_element_from_list()<br>
 gdlll_insert_element_before_element()
 
 ----------------------------------------
