@@ -26,7 +26,6 @@ Let's say that you have a structure (as shown below) that you are storing in the
 element.
 
 ```
-
 struct mydata {
   char *str;
   int val;
@@ -36,7 +35,6 @@ struct mydata *md = malloc(sizeof(*md));
 md->str = malloc(10);
 gdlll_add_element_to_front(..., md, ...);
 free(md);
-
 ```
 
 Now, you can free 'md' but you should not free 'md->str'. 'md->str' will be
@@ -45,12 +43,12 @@ when the element is getting deleted. This function was provided by you when you
 initialized the container:
 gdlll_init_gdll_container(void *function_ptr_to_call_before_deleting_data).
 
+----------------------------------------
+
 I have uploaded the code of the C library (generic_doubly_linked_list_library.c)
 and also the code of the test programs that show how to use this library as a
 'sorted list' and as a 'map'.
 
-
-----------------------------------------
 The source files in this repository are:
 
 generic_doubly_linked_list_library.c
@@ -84,6 +82,7 @@ gdlll_delete_gdll_container()
 gdlll_create_standalone_element()
 gdlll_remove_element_from_list()
 gdlll_insert_element_before_element()
+
 ----------------------------------------
 
 
