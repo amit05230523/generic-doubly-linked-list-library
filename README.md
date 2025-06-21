@@ -10,7 +10,7 @@ only 22 functions (including 3 static functions).
 
 ```
 So, now the developers don't need to write code for implementing data
-structure(s) (like list, map, set, etc.), they can simply use this
+structures (like list, map, set, etc.), they can simply use this
 library and speed up their development.
 ```
 
