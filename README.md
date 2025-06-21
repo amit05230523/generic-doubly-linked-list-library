@@ -1,5 +1,5 @@
 
-**generic_doubly_linked_list_library.c** can be used as a C++ STL list, map, set,
+"**generic_doubly_linked_list_library.c**" can be used as a C++ STL list, map, set,
 stack, queue, deque, multimap, multiset, unordered_map, unordered_set,
 unordered_multimap, and unordered_multiset (basically as all C++ STL data
 structures except vector).
@@ -25,6 +25,8 @@ Example:
 Let's say that you have a structure (as shown below) that you are storing in the
 element.
 
+```
+
 struct mydata {
   char *str;
   int val;
@@ -34,6 +36,8 @@ struct mydata *md = malloc(sizeof(*md));
 md->str = malloc(10);
 gdlll_add_element_to_front(..., md, ...);
 free(md);
+
+```
 
 Now, you can free 'md' but you should not free 'md->str'. 'md->str' will be
 freed by calling your free function (function_ptr_to_call_before_deleting_data)
