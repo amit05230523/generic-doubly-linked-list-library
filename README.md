@@ -12,13 +12,13 @@ So, now the developers don't need to write code for implementing data
 structure(s) (like list, etc.), they can simply use this library and speed up
 their development.
 
-Another unique feature of this library is that it copies user's data into its
+**Another unique feature of this library is that it copies user's data into its
 elements, so the user doesn't have to keep his/her copy of data around. User's
 data safely resides in the elements. However, the library can't do deep copy
 because it doesn't know whether the user data has pointers. So, the user can
 free its top level data but the user should not free embedded pointers. These
 embedded pointers will be freed by the user's callback function when an element
-is getting deleted.
+is getting deleted.**
 
 Example:
 
