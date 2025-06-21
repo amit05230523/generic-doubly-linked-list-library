@@ -1,8 +1,8 @@
 
-"**generic_doubly_linked_list_library.c**" can be used as a C++ STL list, map, set,
+**"generic_doubly_linked_list_library.c" can be used as a C++ STL list, map, set,
 stack, queue, deque, multimap, multiset, unordered_map, unordered_set,
 unordered_multimap, and unordered_multiset (basically as all C++ STL data
-structures except vector).
+structures except vector).**
 
 For using this library as different C++ STL data structures you have to use
 different combinations of functions provided in this library. This library has
