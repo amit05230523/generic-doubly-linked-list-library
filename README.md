@@ -146,7 +146,6 @@ if (gdlll_peek_matching_element(...) == NULL) {
 Some pseudocode for using this library as a 'map' is:
 
 ```
-
 For using this library as a 'map', etc, your 'data_ptr' must point to a
 structure that has a 'key' member and a 'value' member.
 
