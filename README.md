@@ -35,13 +35,13 @@ struct mydata *md = malloc(sizeof(*md));
 md->str = malloc(10);
 gdlll_add_element_to_front(..., md, ...);
 free(md);
-```
 
 Now, you can free 'md' but you should not free 'md->str'. 'md->str' will be
 freed by calling your free function (function_ptr_to_call_before_deleting_data)
 when the element is getting deleted. This function was provided by you when you
 initialized the container:
 gdlll_init_gdll_container(void *function_ptr_to_call_before_deleting_data).
+```
 
 ----------------------------------------
 
